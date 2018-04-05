@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Coming Soon.</hi>
+<p>Currently hosted with GitHub Pages.</p>
+<br>
+<Sorry about how plain the page is, it will be worked on later.>
+</body>
+</html>
