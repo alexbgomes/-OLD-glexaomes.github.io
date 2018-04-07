@@ -11,4 +11,4 @@ function onKonamiCode(cb) {
   });
 }
 
-onKonamiCode(function () {alert("Cheat machine 🅱️roke :(")})
+onKonamiCode(function () {alert("Cheat machine broke :(")})
