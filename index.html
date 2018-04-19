@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html>
-    
-<style>
-    .t {
-        text-align: center;
-        background-color: black;
-        color: red;
-    }
-    .p {
-        text-align: center;
-        color: whitesmoke;
-    }
-    .back {
-        background-color: cornflowerblue;
-    }
-</style>
-    
 <head>
-    <title>Home</title>
+<title>Alex Gomes</title>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
 </head>
+<body>
+<script src="scripts/kcode.js"></script>
+<div id="header">
+    <a href=""><img src="assets/img/logo.png" width="500" alt="Alex Gomes"/></a> 
+</div><!--header-->
     
-<div class="back">    
-    <body>
-        <h1 class="t">Coming Soon</h1>
-        <p class="p">Currently hosted with GitHub Pages.</p>
-        <hr>
-        <p class="p">Sorry about how plain the page is, it will be worked on later.</p>
-        <hr>
-        <script src="scripts/kcode.js"></script>
-    </body>
-</div>
-
-<div>
-    <img alt=":^)" src="assets/img/PainHarold.jpg" style="width:100%; height:100%;">
-</div>
+<div id="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div><!--nav-->
     
+<div id="container">
+    
+    <div id="content">
+        
+        <div id="contentLeft">
+            <h1>Welcome to My Site</h1>
+            <p>This is something that I'm working on as a hobby.</p>
+        </div><!--contentLeft-->
+        
+        <div id="sidebar">
+            <div class="sidebar-element">
+                <h3>About Me</h3>
+                <p>I am currently attending Ryerson University, majoring in Computer Science.</p>
+            </div><!--sidebar-element-->
+            
+            <div class="sidebar-element">
+                <h3>Stuff</h3>
+                <ul>
+                    <li><a href="">Item A</a></li>
+                    <li><a href="">Item B</a></li>
+                    <li><a href="">Item C</a></li>
+                </ul>
+            </div><!--sidebar-element-->
+        </div><!--sidebar-->
+        
+    </div><!--content-->
+    
+</div><!--container-->
+    
+<div id="footer">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p>&copy;2018 alexgomes.ml</p>
+</div><!--footer-->
+    
+</body>
 </html>
