@@ -11,4 +11,4 @@ function onKonamiCode(cb) {
   });
 }
 
-onKonamiCode(function () {alert("Cheat machine broke :(")})
+onKonamiCode(function () {alert("Hey, you found a secret! Congratulations!")})
